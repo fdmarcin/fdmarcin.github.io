@@ -1,0 +1,88 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Lato', sans-serif;*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 5% 25%;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Lato', sans-serif;
+}
+
+li p {
+    margin-top: 0.75;
+    margin-bottom: 0.75;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
+
+a:visited {
+    color: purple;
+}
+
+.desc {
+    font-style: italic;
+    font-size: 80%;
+}
+
+.date {
+    font-size: 80%;
+    background: lightgrey
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.portrait {
+    max-width: 30%;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 15px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+.footer-links {
+   text-align: center;
+}
+.footer-links ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+}
+.footer-links li {
+    display: inline;
+}
+.footer-links a {
+    text-decoration: none;
+    font-size: 90%;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright p {
+    margin: 0;
+    font-size: 60%
+}
+
+/*dodać klasy .pl i .en, które dodadzą emoji 🇵🇱 lub 🇺🇸 po lewej od elementu*/
+/*później dodać https://codepen.io/the_Northway/pen/pbOvXr*/
