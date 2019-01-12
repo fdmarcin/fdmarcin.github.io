@@ -14,7 +14,7 @@ body {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
+  float: right;
   color: #f2f2f2;
   text-align: center;
   padding: 14px 16px;
@@ -38,6 +38,10 @@ h1,
 h2,
 h3 {
     font-family: 'Lato', sans-serif;
+}
+
+h2 {
+    border-bottom: 1px solid darkgrey;
 }
 
 li p {
